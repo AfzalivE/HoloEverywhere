@@ -17,8 +17,9 @@
             android:orientation="vertical" >
 
             <!--
-    The classic Views won't benefit from Roboto font.
-    I am still searching for a way to fix that, but If you want to get the Roboto font, see below!
+				The classic Views won't benefit from Roboto font. I am still
+				searching for a way to fix that, but If you want to get the Roboto
+				font, see below!
             -->
 
             <TextView
@@ -57,7 +58,6 @@
                 android:text="@string/hello_edittext_roboto" />
 
             <SeekBar
-                style="@style/Widget.Holo.SeekBar"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:progress="75" />
@@ -68,30 +68,30 @@
                 android:orientation="horizontal" >
 
                 <ProgressBar
-                    style="@style/Widget.Holo.ProgressBar.Large"
+                    style="@style/ProgressBarHolo.Large"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <ProgressBar
-                    style="@style/Widget.Holo.ProgressBar"
+                    style="@style/ProgressBarHolo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
                 <ProgressBar
-                    style="@style/Widget.Holo.ProgressBar.Small"
+                    style="@style/ProgressBarHolo.Small"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
             </LinearLayout>
 
             <ProgressBar
-                style="@style/Widget.Holo.ProgressBar.Horizontal"
+                style="@style/ProgressBarHolo.Horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:indeterminate="true"
                 android:progress="25" />
 
             <ProgressBar
-                style="@style/Widget.Holo.ProgressBar.Horizontal"
+                style="@style/ProgressBarHolo.Horizontal"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:progress="25" />
@@ -142,6 +142,17 @@
                     android:layout_height="wrap_content"
                     android:text="RadioButton with Roboto" />
             </RadioGroup>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="CheckBox" />
+
+            <com.WazaBe.HoloEverywhere.CheckBoxHolo
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CheckBox with Roboto" />
         </LinearLayout>
     </ScrollView>
 
