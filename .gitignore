@@ -1,4 +1,10 @@
 HoloEverywhereLib/bin/*
 HoloEverywhereLib/gen/*
+HoloEverywhereLib/project.properties
+HoloEverywhereLib/.settings
 HoloDemo/bin/*
 HoloDemo/gen/*
+HoloDemo/project.properties
+HoloDemo/.settings/*
+HoloDemo/lint.xml
+HoloDemo/.settings
